@@ -70,7 +70,10 @@ These parameters allow multiple independent humans in the same simulation.
 
 ```bash
 human_actor_plugin/
-├── launch/ # Demo launch files ├── models/ # SDF/Xacro model of the human ├── src/ # Plugin source code ├── CMakeLists.txt
+├── launch/ # Demo launch files 
+├── models/ # SDF/Xacro model of the human 
+├── src/ # Plugin source code 
+├── CMakeLists.txt
 ├── package.xml
 └── README.md
 ``` 
