@@ -3,7 +3,7 @@
 Bring your simulations to life!  
 The `human_actor_plugin` is a lightweight and configurable Gazebo Classic plugin that lets you spawn and animate human-like actors in simulation — either along a predefined path or by streaming live pose commands from ROS.
 
-![Demo](media/humans_gaz.mp4)  
+![Demo](media/humans_gaz.gif)  
 *Give your robots someone to interact with!*
 
 ---
