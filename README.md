@@ -68,10 +68,12 @@ These parameters allow multiple independent humans in the same simulation.
 ## 📂 Folder Structure
 
 
-`human_actor_plugin/
+```bash
+human_actor_plugin/
 ├── launch/ # Demo launch files ├── models/ # SDF/Xacro model of the human ├── src/ # Plugin source code ├── CMakeLists.txt
 ├── package.xml
-└── README.md` 
+└── README.md
+``` 
 
 ----------
 
