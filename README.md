@@ -3,7 +3,7 @@
 Bring your simulations to life!  
 The `human_actor_plugin` is a lightweight and configurable Gazebo Classic plugin that lets you spawn and animate human-like actors in simulation — either along a predefined path or by streaming live pose commands from ROS.
 
-![Demo](https://media.giphy.com/media/3o7btNR56zZReAXdO0/giphy.gif)  
+![Demo](media/humans_gaz.mp4)  
 *Give your robots someone to interact with!*
 
 ---
@@ -24,7 +24,7 @@ Clone this repo into your Catkin workspace:
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/yourusername/human_actor_plugin.git
+git clone https://github.com/ARSControl/human_actor_plugin.git
 cd ..
 catkin_make
 ```
@@ -55,8 +55,12 @@ This will:
 
 In your model's SDF or Xacro file:
 
-`<plugin  name="human_actor_plugin"  filename="libhuman_actor_plugin.so"> <ros_namespace>human_0</ros_namespace> <ros_topic>actor_pose</ros_topic> </plugin>` 
-
+```bash
+    <plugin  name="human_actor_plugin"  filename="libhuman_actor_plugin.so"> 
+        <ros_namespace>human_0</ros_namespace> 
+        <ros_topic>actor_pose</ros_topic> 
+    </plugin> 
+```
 These parameters allow multiple independent humans in the same simulation.
 
 ----------
@@ -89,11 +93,6 @@ These parameters allow multiple independent humans in the same simulation.
 Pull requests and issues are welcome!  
 If you’ve made your human walk, run, or dance — show it off and open a PR 🕺💃
 
-----------
-
-## 📜 License
-
-MIT License
 
 ----------
 
