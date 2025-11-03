@@ -103,7 +103,7 @@ If you’ve made your human walk, run, or dance — show it off and open a PR �
 
 ## 👤 Author
 
-**Your Name**  
+**Mattia Catellani**  
 GitHub: [@MatCat960](https://github.com/MatCat960)
 
 ----------
